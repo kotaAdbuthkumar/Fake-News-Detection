@@ -16,7 +16,7 @@ cells = [
             "# Fake News Detection Using Machine Learning\n",
             "### End-to-End Data Science & NLP Pipeline\n",
             "\n",
-            "**Author:** Data Science & AI Project  \n",
+            "**Author:** Kota Adbuth Kumar  \n",
             "**Objective:** Build, evaluate, and deploy a machine learning classification system capable of analyzing news articles and detecting stylistic, lexical, and semantic patterns distinguishing **FAKE NEWS (0)** from **REAL NEWS (1)**.\n",
             "\n",
             "---\n",

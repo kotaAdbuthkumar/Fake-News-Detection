@@ -312,6 +312,14 @@ ACTUAL Real (1)      15        1,580          (Total Real: 1,595)
 
 ---
 
+## Author
+
+**Kota Adbuth Kumar**
+- GitHub: [@kotaAdbuthkumar](https://github.com/kotaAdbuthkumar)
+- Repository: [Fake-News-Detection](https://github.com/kotaAdbuthkumar/Fake-News-Detection)
+
+---
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License by **Kota Adbuth Kumar** - see the [LICENSE](LICENSE) file for details.
