@@ -1,0 +1,144 @@
+{
+    "champion_model": "Linear SVM",
+    "sample_size": 15282,
+    "train_size": 12225,
+    "test_size": 3057,
+    "vocabulary_size": 10000,
+    "ngram_range": [
+        1,
+        2
+    ],
+    "models": {
+        "Logistic Regression": {
+            "Accuracy": 0.9791,
+            "Precision": 0.9791,
+            "Recall": 0.9791,
+            "F1 Score": 0.9791,
+            "Confusion Matrix": [
+                [
+                    1422,
+                    40
+                ],
+                [
+                    24,
+                    1571
+                ]
+            ]
+        },
+        "Multinomial Naive Bayes": {
+            "Accuracy": 0.9467,
+            "Precision": 0.9468,
+            "Recall": 0.9467,
+            "F1 Score": 0.9467,
+            "Confusion Matrix": [
+                [
+                    1391,
+                    71
+                ],
+                [
+                    92,
+                    1503
+                ]
+            ]
+        },
+        "Linear SVM": {
+            "Accuracy": 0.9876,
+            "Precision": 0.9876,
+            "Recall": 0.9876,
+            "F1 Score": 0.9876,
+            "Confusion Matrix": [
+                [
+                    1439,
+                    23
+                ],
+                [
+                    15,
+                    1580
+                ]
+            ]
+        }
+    },
+    "detailed_reports": {
+        "Logistic Regression": {
+            "Fake (0)": {
+                "precision": 0.983402489626556,
+                "recall": 0.9726402188782489,
+                "f1-score": 0.9779917469050894,
+                "support": 1462.0
+            },
+            "Real (1)": {
+                "precision": 0.9751707014276847,
+                "recall": 0.9849529780564263,
+                "f1-score": 0.9800374298190893,
+                "support": 1595.0
+            },
+            "accuracy": 0.9790644422636572,
+            "macro avg": {
+                "precision": 0.9792865955271204,
+                "recall": 0.9787965984673377,
+                "f1-score": 0.9790145883620893,
+                "support": 3057.0
+            },
+            "weighted avg": {
+                "precision": 0.979107526532935,
+                "recall": 0.9790644422636572,
+                "f1-score": 0.9790590888245626,
+                "support": 3057.0
+            }
+        },
+        "Multinomial Naive Bayes": {
+            "Fake (0)": {
+                "precision": 0.9379635873229939,
+                "recall": 0.9514363885088919,
+                "f1-score": 0.9446519524617997,
+                "support": 1462.0
+            },
+            "Real (1)": {
+                "precision": 0.9548919949174078,
+                "recall": 0.9423197492163009,
+                "f1-score": 0.9485642158409593,
+                "support": 1595.0
+            },
+            "accuracy": 0.9466797513902518,
+            "macro avg": {
+                "precision": 0.9464277911202008,
+                "recall": 0.9468780688625964,
+                "f1-score": 0.9466080841513795,
+                "support": 3057.0
+            },
+            "weighted avg": {
+                "precision": 0.94679604074566,
+                "recall": 0.9466797513902518,
+                "f1-score": 0.9466931889975404,
+                "support": 3057.0
+            }
+        },
+        "Linear SVM": {
+            "Fake (0)": {
+                "precision": 0.9896836313617606,
+                "recall": 0.9842681258549931,
+                "f1-score": 0.9869684499314129,
+                "support": 1462.0
+            },
+            "Real (1)": {
+                "precision": 0.9856519026824704,
+                "recall": 0.9905956112852664,
+                "f1-score": 0.9881175734834271,
+                "support": 1595.0
+            },
+            "accuracy": 0.9875695125940465,
+            "macro avg": {
+                "precision": 0.9876677670221155,
+                "recall": 0.9874318685701298,
+                "f1-score": 0.98754301170742,
+                "support": 3057.0
+            },
+            "weighted avg": {
+                "precision": 0.9875800634051142,
+                "recall": 0.9875695125940465,
+                "f1-score": 0.9875680089976421,
+                "support": 3057.0
+            }
+        }
+    }
+}
